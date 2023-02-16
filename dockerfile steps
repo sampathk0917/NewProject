@@ -1,0 +1,9 @@
+1. create dockerfile
+2. in the dockerfile
+    1. choose base image - ubuntu
+    2. install python
+    3. install dependencies - 
+        1. pip install requests python-dotenv
+    4. copy python files (2) to the container
+    5. Run get_forex_data.py file
+    6. create entrypoint using server.py
